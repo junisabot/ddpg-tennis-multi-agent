@@ -1,0 +1,15 @@
+"""
+"""
+device = "cuda:0"
+SEED = 2
+N_EPISODES = 1000
+BUFFER_SIZE = 1000000
+BATCH_SIZE = 128
+GAMMA = 0.99
+TAU = 2e-1
+LR_ACTOR = 0.0001
+LR_CRITIC = 0.0003
+UNITY_NO_GRAPHIC = True
+UNITY_WORKER_ID = 1
+UNITY_ENVIRONMENT_PATH = "./reacher/Tennis.x86_64"
+SAVE_DIRECTORY = "./pretrained_model"

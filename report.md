@@ -44,7 +44,7 @@ To train a pair of reinforcement learning agent to play table tennis. This envir
 
 ### Results
 
-This project is solved in 300 episodes exceeding average rewards of +0.5. Below shows the results of training process over the time.
+This project is solved in 480 episodes exceeding average rewards of +0.5. Below shows the results of training process over the time.
 <img src ="resource/rewards.jpg"/>
 
 ### Futuee Work

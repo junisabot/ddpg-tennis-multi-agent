@@ -15,8 +15,8 @@ To train a pair of reinforcement learning agent to play table tennis.
 - This environment is simulated using Unity's Reacher Environment
 - The observation space consists of 8 variables corresponding to position, velocity of the ball, and racket.
 - The action space consist of 2 variables corrensponding to left right movement of racket, and jumping.
-- A position reward, +0.1 is given if the an agent hits the ball over the net.
-- A negative reward, -0.01 is given if the an agent hits the ball out of bound or a ball hit the ground.
+- A position reward, +0.1 is given if any agent hits the ball over the net.
+- A negative reward, -0.01 is given if any agent hits the ball out of bound or the ball hit the ground.
 - The goal of this project is to keep the ball in play.
 - In order to solve the environment, your agent must get an average score of +0.5 over 100 consecuitive episodes.
 
@@ -41,7 +41,7 @@ $ pip install -r requirement.txt
 
 1. report.html is a report of this project
 2. train.ipynb is the notebook to train MADDPG network with this project
-3. actors are splitted into 2 representing left actorA and right actorB as the agent.
+3. two agents modules located in directory modules/, named actorA (left player) & actorB (right player).
 4. network/actor.py contains actor neural network from DDPG.
 5. network/critic.py contains critic neural network from DDPG.
 6. config.py contains all the adjustable parameters of this project.

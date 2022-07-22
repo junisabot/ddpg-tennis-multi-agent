@@ -18,10 +18,10 @@ To train a pair of reinforcement learning agent to play table tennis. This envir
 2. Action Space:
     -  2 variables corrensponding to left right movement of racket, and jumping.
 3. Rewarding Strategy:
-    - if an agent hits the ball over the net, receive +0.1 as reward
-    - if an agent  hits the ball out of bound or a ball hit the ground., receive -0.01 as reward
+    - if any agent hits the ball over the net, receive +0.1 as reward
+    - if any agent  hits the ball out of bound or a ball hit the ground., receive -0.01 as reward
 4. Solution Requirement:
-    - score a minimum average score of +0.5 over 100 consecuitive episodes.
+    - score a minimum average of +0.5 over 100 consecuitive episodes.
 
 ### Implementation
 

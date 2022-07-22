@@ -41,8 +41,9 @@ $ pip install -r requirement.txt
 
 1. report.html is a report of this project
 2. train.ipynb is the notebook to train MADDPG network with this project
-3. two agents modules located in directory modules/, named actorA (left player) & actorB (right player).
-4. network/actor.py contains actor neural network from DDPG.
-5. network/critic.py contains critic neural network from DDPG.
-6. config.py contains all the adjustable parameters of this project.
-7. pretrained models are provided in directory ./pretrained_model
+3. modules/actor.py contains the agent of both tennis player, named actorA (left player) & actorB (right player).
+4. modules/critic.py contains the centralised agent of the environment.
+5. network/actor.py contains actor neural network from DDPG.
+6. network/critic.py contains critic neural network from DDPG.
+7. config.py contains all the adjustable parameters of this project.
+8. pretrained models are provided in directory ./pretrained_model
